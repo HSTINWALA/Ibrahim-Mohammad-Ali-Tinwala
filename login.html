@@ -1,0 +1,98 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Dashboard">
+  <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+  <title>Ibrahim Mohammad Ali Tinwala</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://i-developer.000webhostapp.com/IDeveloper/styles/b3.css" rel="stylesheet">
+  <!--external css-->
+
+
+  <!-- Custom styles for this template -->
+  <link href="https://i-developer.000webhostapp.com/IDeveloper/styles/s3.css" rel="stylesheet">
+  <link href="https://i-developer.000webhostapp.com/IDeveloper/styles/style-responsive.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="styles/popup.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- **********************************************************************************************************************************************************
+  MAIN CONTENT
+  *********************************************************************************************************************************************************** -->
+  <div id="login-page">
+
+    <script language="javascript">
+      function pasuser(form) {
+      if (form.email.value=="info@imt.com") { 
+      if (form.pass.value=="imt@123") {              
+      location="dashbord.html" 
+      } else {
+      alert("Invalid Password")
+      }
+      } else {  alert("Invalid UserID")
+      }
+      }
+      </script>
+
+    <form class="form-login" action="login.html" method="post" name="login">
+      <h2 class="form-login-heading"><a href="index.html"><img src="https://i-developer.000webhostapp.com/IDeveloper/images/ft1.png"
+            style="width:100px;height:100px"></a></h2>
+      <div class="login-wrap">
+        <div class="input-group form-group">
+          <span class="input-group-addon">
+            <i class="fa fa-envelope-o fa-fw"></i>
+          </span>
+          <input class="form-control" type="text" placeholder="Email address" name="email">
+        </div>
+        <div class="input-group form-group">
+          <span class="input-group-addon">
+            <i class="fa fa-key fa-fw"></i>
+          </span>
+          <input class="form-control" type="password" placeholder="Password" name="pass">
+        </div>
+
+        <input class="btn btn-theme btn-block" type="submit" name="login" value="Login" 
+        onClick="pasuser(this.form)">
+        <hr>
+
+        <div class="registration">
+
+          <div class="popup"><a href="Index.html">Back to home page</a>
+            <br>
+            <span >Please Contact to Administration for registration.</span>
+          </div>
+          
+          <br>
+        </div>
+
+      </div>
+    </form>
+
+  </div>
+
+  <!-- js placed at the end of the document so the pages load faster -->
+  <script src="https://i-developer.000webhostapp.com/IDeveloper/js/jquery.js"></script>
+  <script src="https://i-developer.000webhostapp.com/IDeveloper/js/bm2.js"></script>
+
+  <!--BACKSTRETCH-->
+  <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
+  <script type="text/javascript" src="https://i-developer.000webhostapp.com/IDeveloper/js/jquery.backstretch.min.js"></script>
+  <div class="backstretch"
+    style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 896px; width: 1345px; z-index: -999999; position: fixed;">
+    <img src="https://i-developer.000webhostapp.com/IDeveloper/images/f.png"
+      style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1345px; height: 990.835px; max-width: none; z-index: -999999; left: 0px; top: -47.4175px;">
+  </div>
+
+ 
+</body>
+
+
+</html>

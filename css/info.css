@@ -1,0 +1,259 @@
+img {
+    width: 50%
+}
+
+.services_right_content .ceo-friendly-website-logo img {
+    width: 50%
+}
+
+.news-section.news-section-detail .news-detail .figure-port img {
+    height: 300px;
+    width: auto
+}
+
+.news-section.news-section-detail .news-detail .figcaption {
+    padding: 0;
+    position: static;
+    background: #252525;
+    padding: 10px
+}
+
+.news-section.news-section-detail .news-detail {
+    height: auto
+}
+
+.news-section.news-section-detail .news-detail .figcaption p {
+    margin: 0
+}
+
+.news-section.news-section-detail .nwEvntGaleryList {
+    width: 32.48%
+}
+
+.news-section.news-section-detail .nwEvntGaleryCover .nwEvntGaleryList:nth-child(3n+4) {
+    margin-left: 0
+}
+
+.news-section.news-section-detail .nwEvntGaleryCover .nwEvntGaleryList:nth-child(4n+5) {
+    margin-left: .64%
+}
+
+.news-section.news-section-detail .nwEvntGaleryCover .nwEvntGaleryList:nth-child(4n+4) {
+    margin-right: .64%
+}
+
+.news-section.news-section-detail .nwEvntGaleryCover .nwEvntGaleryList:nth-child(3n+1) {
+    margin-left: 0
+}
+
+.news-section.news-section-detail .nwEvntGaleryCover .nwEvntGaleryList:nth-child(3n+3) {
+    margin-right: 0
+}
+
+.news-section-detail>h1 {
+    margin-bottom: 20px
+}
+
+.news-section.newsListing>h1 {
+    font-size: 32px
+}
+
+.home-carousel-certification .container .home-logo {
+    margin-right: 0;
+    height: auto;
+    text-align: center!important;
+    width: 100%!important;
+    margin-bottom: 52px
+}
+
+.home-carousel-certification .container .first-logo {
+    margin-top: 52px
+}
+
+}
+
+@font-face {
+    font-family: 'Caveat-Regular';
+    src: url(https://www.genetechsolutions.com/static/frontend/css/../fonts/Caveat-Regular/Caveat-Regular.eot);
+    src: url('https://www.genetechsolutions.com/static/frontend/css/../fonts/Caveat-Regular/Caveat-Regular.eot?#iefix') format('embedded-opentype'), url(https://www.genetechsolutions.com/static/frontend/css/../fonts/Caveat-Regular/Caveat-Regular.woff) format('woff'), url(https://www.genetechsolutions.com/static/frontend/css/../fonts/Caveat-Regular/Caveat-Regular.ttf) format('truetype'), url('https://www.genetechsolutions.com/static/frontend/css/../fonts/Caveat-Regular/Caveat-Regular.svg#svgFontName') format('svg')
+}
+
+@font-face {
+    font-family: 'Caveat-Bold';
+    src: url(https://www.genetechsolutions.com/static/frontend/css/../fonts/Caveat-Bold/Caveat-Bold.eot);
+    src: url('https://www.genetechsolutions.com/static/frontend/css/../fonts/Caveat-Bold/Caveat-Bold.eot?#iefix') format('embedded-opentype'), url(https://www.genetechsolutions.com/static/frontend/css/../fonts/Caveat-Bold/Caveat-Bold.woff) format('woff'), url(https://www.genetechsolutions.com/static/frontend/css/../fonts/Caveat-Bold/Caveat-Bold.ttf) format('truetype'), url('https://www.genetechsolutions.com/static/frontend/css/../fonts/Caveat-Bold/Caveat-Bold.svg#svgFontName') format('svg')
+}
+
+.Timeline-fullwidth-wrp {
+    padding: 20px 0
+}
+
+.Timeline-fullwidth p {
+    font-size: 25px
+}
+
+.top-tm-section {
+    margin-bottom: 120px
+}
+
+.top-tm-section p {
+    font-size: 25px;
+    font-family: "Arial";
+    color: #3b3b3b;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0 1%;
+    margin-bottom: 45px
+}
+
+.Timeline-fullwidth h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 38px;
+    font-family: 'Montserrat';
+    padding: 0 0%;
+    color: #3b3b3b
+}
+
+.top-tm-section .top-tm-section-lastp p {
+    margin-bottom: 0!important
+}
+
+.top-tm-section .top-tm-section-lastp h2 {
+    font-family: "Caveat-Regular";
+    font-size: 48px;
+    color: #5bb498;
+    font-weight: 400;
+    margin-bottom: 30px
+}
+
+.Timeline-container {
+    margin: 0 auto;
+    float: none;
+    max-width: 1008px
+}
+
+.top-tm-section .center {
+    text-align: center
+}
+
+.Timeline-wrap .Timeline-inner::before {
+    content: '';
+    background-image: url(https://www.genetechsolutions.com/static/frontend/css/images/border.png);
+    width: 7px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 145px;
+    bottom: 0;
+    background-position: center
+}
+
+.Timeline-wrap .Timeline-inner {
+    float: left;
+    width: 100%;
+    position: relative
+}
+
+.Timeline-wrap .Timeline-inner .Timeline-years-date {
+    width: 180px;
+    display: block;
+    padding: 2% 0% 2% 0;
+    font-family: 'Caveat-Bold';
+    font-size: 60px;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 30px;
+    color: #5bb498
+}
+
+.Timeline-wrap .Timeline-inner .range-year {
+    font-size: 35px!important
+}
+
+.Timeline-inner-wrap {
+    width: 100%;
+    float: left;
+    padding: 25px 0
+}
+
+.Timeline-inner .Timeline-inner-wrap:first-child {
+    padding-top: 0
+}
+
+.Timeline-wrap .Timeline-inner p {
+    line-height: 1.4;
+    font-size: 25px;
+    color: #242424
+}
+
+.Timeline-wrap .right {
+    width: 45%;
+    float: right;
+    box-sizing: border-box
+}
+
+.Timeline-wrap .left {
+    width: 46.5%;
+    float: left;
+    padding-right: 22px;
+    box-sizing: border-box
+}
+
+.Timeline-wrap .Timeline-text p {
+    width: 88%;
+    float: right
+}
+
+.Timeline-wrap .Timeline-image img {
+    width: 100%
+}
+
+.bottom-tm-section-lastp {
+    margin-top: 52px!important;
+    float: left;
+    width: 100%
+}
+
+.bottom-tm-section-lastp-btn-wrp {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 52px
+}
+
+.bottom-tm-section-lastp-btn {
+    display: inline-block;
+    float: none;
+    width: auto
+}
+
+.bottom-tm-section-lastp-btn a {
+    display: inline-block;
+    background: #5bb498;
+    transition: all 0.5s ease 0s;
+    font-size: 20px!important;
+    text-transform: uppercase;
+    font-family: 'montserratbold';
+    padding: 17px 42px;
+    border-radius: 7px;
+    color: #fff
+}
+
+.bottom-tm-section-lastp-btn a:hover {
+    transition: all 0.5s ease 0s;
+    background: #5bb498
+}
+
+.Timeline-wrap {
+    width: 100%;
+    float: left;
+    margin-top: 30px
+}
+
+.Timeline-wrap .left
